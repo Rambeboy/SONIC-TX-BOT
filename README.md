@@ -42,12 +42,12 @@ Sonic TX bot for adding more tx on chain
 
 4. Run
    ```bash
-   cp account/account_tmp.js account.js && cp account/proxy_list_tmp.js proxy_list.js
+   cp accounts/account_tmp.js account.js && cp accounts/proxy_list_tmp.js proxy_list.js
    ```
 
-- Fill up account.js `nano account/account.js` fill with your account private key
+- Fill up account.js `nano accounts/account.js` fill with your account private key
 
-- Fill up proxy_list.js `nano proxy_list.js` fill with your proxy list
+- Fill up proxy_list.js `nano accounts/proxy_list.js` fill with your proxy list
 
 5. Run
    ```bash
